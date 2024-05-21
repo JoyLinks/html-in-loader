@@ -1,2 +1,2 @@
-# html-include-loader
-WEBPACK html-include-loader
+# html-in-loader
+WEBPACK html-in-loader
