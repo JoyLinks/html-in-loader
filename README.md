@@ -5,8 +5,10 @@ WEBPACK html-in-loader
 <include src="header.html" />
 ```
 ### 安装
+```cmd
 npm install html-loader --save-dev
 npm install html-in-loader --save-dev
+```
 
 ### 配置
 webpack.config.js 中配置规则
