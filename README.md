@@ -6,7 +6,7 @@ WEBPACK html-in-loader
 ```
 ### 安装
 npm install html-loader --save-dev
-npm install html-in-loader --save-dev
+npm install @joyzl/html-include-loader --save-dev
 
 ### 配置
 webpack.config.js 中配置规则
@@ -15,7 +15,7 @@ webpack.config.js 中配置规则
 module: {
 	rules: [{
 		test: /\.html$/i,
-		use: ['html-loader', 'html-in-loader'],
+		use: ['html-loader', '@joyzl/html-include-loader'],
 	}]
 }
 ```
